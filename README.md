@@ -17,3 +17,4 @@ At the end of a New Relic transaction, when the agent is preparing span data to 
    export NEW_RELIC_CONFIG_FILE=newrelic.ini
    ```
 1. Run the application: `newrelic-admin run-program python app.py`
+1. You should see feature flag data attached to the root span of the transaction New Relic and also see those spans in Launch Darkly.
