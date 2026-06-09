@@ -1,0 +1,4 @@
+flask
+launchdarkly-server-sdk
+launchdarkly-observability
+git+ssh://git@github.com/newrelic/newrelic-python-agent.git@darkly-nr-integration#egg=newrelic
